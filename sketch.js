@@ -42,9 +42,9 @@ function setup() {
   box11 = new Block(490, 170, 50, 50)
   box12 = new Block(540, 170, 50, 50)
 
-  monster = createSprite(600, 200, 100 ,	240)
+  monster = createSprite(700, 200, 100 ,	240)
 	monster.addImage(monsterImage)
-//	monster.scale = 0.2;
+	monster.scale = 0.1;
 
 }
 
